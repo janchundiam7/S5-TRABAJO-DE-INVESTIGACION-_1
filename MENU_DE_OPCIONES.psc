@@ -1,13 +1,11 @@
 Algoritmo MENU_DE_OPCIONES
     Definir opcion Como Entero
     Repetir
-        Limpiar Pantalla
-        Escribir "=========== MENU PRINCIPAL ==========="
+        Escribir "MENU PRINCIPAL"
         Escribir "1. VALIDAR_RADIO"
         Escribir "2. NUMERO PAR O IMPAR"
         Escribir "3. MAYOR DE TRES NUMEROS"
         Escribir "5. SALIR DEL SISTEMA"
-		Escribir "======================================"
         Escribir "Seleccione una opcion: "
         Leer opcion
         
@@ -73,3 +71,4 @@ Algoritmo MENU_DE_OPCIONES
         Esperar Tecla
     Hasta Que opcion = 5
 FinAlgoritmo
+
